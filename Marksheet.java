@@ -1,6 +1,10 @@
+import java.util.Scanner;
+
 public class Marksheet {
     public static void main(String[] args) {
-        int num = 50;
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter the no: ");
+        int num = sc.nextInt();
 
         if ((num >= 90) && (num <= 100)) {
             System.out.println("A+");
